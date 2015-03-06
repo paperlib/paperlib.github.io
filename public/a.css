@@ -9,6 +9,6 @@ footer { margin: 1em; font-size: 70%; color: gray; font-weight: bold }
 section { margin: auto; max-width: 54em }
 img { max-width: 100%; min-width: 54em; overflow: auto }
 
-p { font-size: 100% }
+p { font-size: 125% }
 
-dl { display: inline-block; text-align: left; font-size: 100% }
+dl { display: inline-block; text-align: left; font-size: 125% }
