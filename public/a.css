@@ -1,7 +1,14 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box }
 
-html { margin: auto; text-align: center; max-width: 54em }
+html { margin: auto; text-align: center }
 body { font-family: "brandon-grotesque",sans-serif; margin: 1ex }
 article, aside, footer, header, menu, nav, section, time { display: block }
 
 footer { margin: 1em; font-size: 70%; color: gray; font-weight: bold }
+
+section { margin: auto; max-width: 54em }
+img { max-width: 100%; min-width: 54em; overflow: auto }
+
+p { font-size: 100% }
+
+dl { display: inline-block; text-align: left; font-size: 100% }
