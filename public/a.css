@@ -1,7 +1,7 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box }
 
 html { margin: auto; text-align: center; font-size: 150% }
-body { font-family: "brandon-grotesque",sans-serif; margin: 1ex; color: #333333; padding-top: 2em }
+body { font-family: "brandon-grotesque",sans-serif; margin: 1ex; color: #333333; padding-top: 1em }
 article, aside, footer, header, menu, nav, section, time { display: block }
 
 footer { margin: 3em; font-size: 70%; color: gray; font-weight: bold }
