@@ -4,6 +4,8 @@ html { margin: auto; text-align: center; font-size: 150% }
 body { font-family: "brandon-grotesque",sans-serif; margin: 1ex; color: #333333; padding-top: 1em }
 article, aside, footer, header, menu, nav, section, time { display: block }
 
+body:after { content: url("public/images/spinner.gif"); display: none }
+
 footer { margin: 3em; font-size: 70%; color: gray; font-weight: bold }
 
 section { margin: auto; max-width: 30em; min-height: 100% }
