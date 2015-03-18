@@ -4,7 +4,7 @@ html { margin: auto; text-align: center; font-size: 150% }
 body { font-family: "brandon-grotesque",sans-serif; margin: 1ex; color: #333333; padding-top: 1em }
 article, aside, footer, header, menu, nav, section, time { display: block }
 
-body:after { content: url("public/images/spinner.gif"); display: none }
+body:after { content: url("images/spinner.gif"); display: none }
 
 footer { margin: 3em; font-size: 70%; color: gray; font-weight: bold }
 
@@ -21,7 +21,7 @@ span { vertical-align: middle; padding-left: 1em; padding-right: 1em }
 
 button#email { width: 9em }
 
-.spinner { background:url("public/images/spinner.gif") no-repeat right center }
+.spinner { background:url("images/spinner.gif") no-repeat right center }
 
 input[type=submit] {  -webkit-appearance: button }
 
