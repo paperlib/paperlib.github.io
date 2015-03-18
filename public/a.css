@@ -19,7 +19,7 @@ span { vertical-align: middle; padding-left: 1em; padding-right: 1em }
 
 button#email { width: 9em }
 
-.spinner { background:url("images/spinner.gif") no-repeat right center }
+.spinner { background:url("public/images/spinner.gif") no-repeat right center }
 
 input[type=submit] {  -webkit-appearance: button }
 
