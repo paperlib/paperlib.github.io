@@ -37,12 +37,18 @@
       on the updates (your email won't be used for anything else.)
     </p>
 
-    <form>
-      E-mail address:&nbsp;<input type="email" name="email" placeholder="you@example.com">
-                     &nbsp;<input type="submit" value="Get Early Access">
+    <form onsubmit="return submitEmail();">
+      E-mail address:&nbsp;<input type="email" name="email" placeholder="you@example.com" required>
+                     <!-- &nbsp;<input id="emailButton" type="submit" value="Get Paperlib"> -->
+                     <!-- &nbsp;<button id="emailButton"><span>Get Paperlib</span> <img id="emailSpinner" src="public/images/spinner.gif"></button> -->
+                     &nbsp;<button id="email"><span class="">Get Paperlib</span></button>
     </form>
   </section>
 
   <footer><p>&copy; Paperlib 2015</p></footer>
+
+  <!-- <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1.17.min.js"></script> -->
+  <!-- <script src="public/aws-sdk-sns.min.js"></script> -->
+  <script src="https://dl.dropboxusercontent.com/u/7198593/browser.min.js"></script>
 </body>
 </html>
